@@ -110,6 +110,19 @@ body{
 
 @media (max-width: 500px) {
 
+    .search input {
+            border: 0;
+            outline: 0;
+            background: #ebfffc;
+            color: #555;
+            padding: 5px 20px;
+            height: 50px;
+            border-radius: 30px;
+            flex: 1;
+            margin-right: 10px;
+            font-size: 15px;
+        }
+
     .search button {
             border: 0;
             outline: 0;
