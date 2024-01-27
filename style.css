@@ -106,3 +106,23 @@ body{
     margin-top: 10px;
     display: none;
 }
+
+
+@media (max-width: 500px) {
+
+    .search button {
+            border: 0;
+            outline: 0;
+            background: #ebfffc;
+            margin-right: -20px;
+            border-radius: 50%;
+            padding: 10px;
+            width: 40px;
+            height: 40px;
+            cursor: pointer;
+        }
+
+    .search button img {
+            width: 20px;
+        }
+}
